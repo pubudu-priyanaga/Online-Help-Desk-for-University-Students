@@ -1,0 +1,63 @@
+body  
+{  
+	background-image:url("../images/logback2.jpg");
+	width: 100vw;
+ 
+} 
+h1{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;
+} 
+.loginPage{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;   
+        border-radius: 15px;
+		background-color: rgb(0,0,0); 
+		background-color: rgba(0,0,0, 0.4);
+}	
+}
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: white;  
+    font-size: 17px;  
+}  
+#user{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 27px;  
+    padding-left: 7px;
+    color: blue; 
+
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+.loginPage a{  
+    float: right;
+	color: blue;
+} 

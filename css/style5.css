@@ -1,0 +1,280 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+
+}
+
+body
+{
+width: 100vw;
+}
+
+header
+{
+    background-image: url("../images/back2.jpg");
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.userlogo
+{
+    display: block;
+    width: 90px;
+    background-color: gray;
+    margin-top:50px;
+    margin-left:10px;
+    margin-right:15px;
+
+}
+
+h1 
+{
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+ul.menu {
+    list-style-type : none;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+    background-color : #333;
+}
+
+li.menu {
+    float : left;
+}
+
+li a {
+    color : white;
+    display : block;
+    text-align : center;
+    padding : 20px 22px;
+    text-decoration : none;
+}
+
+li a:hover 
+{
+    background-color : grey;
+}
+
+ul.menu input[type=text] 
+{
+  float: right;
+  border: none;
+  border: 1px solid #ccc;
+  margin-top: 13px;
+  margin-right: 16px;
+  font-size: 17px;
+  padding: 6px;
+}
+
+.dropdown
+{
+    margin-right: 30px;
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.dropdown button
+{
+    
+} 
+
+.dropdown ul
+{
+    
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transform: tranlateY(-10px);
+    transition: all 0.4s ease;
+    
+}
+.dropdown ul li
+{
+    
+    background-color: gray;
+    list-style: none;
+}
+.dropdown li a:hover 
+{
+    background-color : black;
+}
+.dropdown button:focus + ul
+{
+    opacity: 1;
+    visibility: visible;
+    transform: tranlateY(0px);
+}
+.back
+{
+    background-image: url("../images/back2.jpg");
+}
+#drop
+{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+.lecturerData{
+    background-color: white;
+    padding: 5px;
+}
+
+
+th.col2{
+    text-align: left;
+}
+
+div.tbl{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.student{
+    background-color: white;
+    padding: 5px;
+}
+
+
+th.col2{
+    text-align: left;
+}
+
+div.tbl{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+footer
+{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height:auto;
+    
+    font-family: "Arial, Helvetica, sans-serif;";
+    padding-top: 40px;
+    color: #fff;
+
+}
+
+.footer 
+{
+
+display: flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+text-align:center;
+
+
+}
+
+.content h2
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.content p
+{max-width: 500px;
+    margin-top: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.links a
+{
+    color: white;
+}
+.pics 
+{
+
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem 0 3rem 0;
+
+}
+
+.pics li
+{
+margin:0 10px;
+
+}
+
+.pics img
+{
+text-decoration: none;
+color: #fff;
+
+
+
+}
+
+.pics img:hover 
+{
+color: aqua;
+
+}
+
+
+.bottomOfFooter
+{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bottomOfFooter p
+{
+font-size: 14px;
+word-spacing: 2px;
+text-decoration:capitalize ;
+
+}
+
+.bottomOfFooter span
+{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

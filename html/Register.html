@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="..\css\Register.css">
+  <link rel="stylesheet" href="../css/style1.css">
+  <img class="image" src="..\images\Register.jpg">
+ 
+</head>
+<body>
+  <header>
+	<img class="logo" src = "../images/logo.png" align = "left" width = "150px" height="150px" alt= "helpdesk image">
+	<img class="userlogo" src= "../images/user.png" align="right" width = "90px" height="90px" alt= "user image">
+	
+	<br/><center><h1>ACADEMIC HELP DESK</h1></center>
+
+	<br/><br/>
+	<ul class="menu">
+			<li class="menu"> <a href="home.html"> Home </a></li>
+			<li class="menu"> <a href="news.html"> News </a></li>
+			<li class="menu"> <a href="CAMPUS.html"> Campus Life </a></li>
+			<li class="menu"> <a href="student_message.html"> Student Messages </a></li>
+			<li class="menu"> <a href="#"> Registration </a></li>
+			<li class="menu"> <a href="Contact.html"> Contact Us </a></li>
+			<li class="menu"> <a href="about us.html"> About Us </a></li>
+			<input type="text" placeholder="Search..">
+		</ul> 
+		
+	
+
+<div class="dropdown">	
+	<button><i class="arrow down" id="drop"></i></button>
+	<ul>
+		<li><a href="#">User Profile</a></li>
+		<li><a href="#">Login</a></li>
+		<li><a href="#">Logout</a></li>
+	</ul>
+	</div>
+	<div class="back"><br/><br/></div>
+</header>
+  <br/><br/><br/>
+  <h2>Registration</h2><br/><br/>
+  
+  <form method="post" action="..\php\Register.php">
+    
+    <fieldset>
+	<legend><strong>User Type</strong></legend><br/> 
+	<label>User</label><br> 
+	<input type="radio" name="userType" value="Lecturer" />Lecturer
+	<input type="radio" name="userType" value="Student" />Student<br/><br/>
+	</fieldset>
+	
+	<fieldset>
+	<legend><strong>System Needs</strong></legend><br/> 
+	<label >Username</label> 
+	<input type="text" placeholder="Enter Username" name="username" id="name" required /><br/><br/>
+	<label>Password&nbsp;</label>
+	<input type="password" placeholder="Enter Password" name="password" id="name" required /><br/><br/>
+	</fieldset>
+
+	<fieldset>
+	<legend><strong>Personal Details</strong></legend><br/> 
+   
+	<label>Full Name&emsp;&ensp;&nbsp;</label> 
+    <input type="text" placeholder="Enter Full Name"  name="fullName" id="name" required /><br/><br/>
+	
+	<label>NIC Number&ensp;&nbsp;</label> 
+    <input type="text" placeholder="Enter NIC Number"  name="NIC" id="details" required /><br/><br/>
+	
+    <label>Phone Number</label> 
+    <input type="number" placeholder="Enter Phone Number"  name="uPhone" id="details" required /><br/><br/>
+	
+    <label>Email&emsp;&emsp;&emsp;&ensp;</label> 
+    <input type="email" placeholder="Enter Email" name="uEmail" id="name" required /><br/><br/>
+	
+    <label>Address&nbsp;&nbsp;&emsp;&emsp;</label> 
+    <textarea placeholder="Enter Address" rows="3" cols="50"  name="uAddress" id="address" required /></textarea><br/><br/>
+	
+    <label >Gender</label><br> 
+	<input type="radio" name="uGender" value="male" />Male
+	<input type="radio" name="uGender" value="female" />Female<br/><br/>
+       
+
+	<label >Age&emsp;&emsp;&emsp;&emsp;&nbsp;</label> 
+    <input type="number" placeholder="Enter Age(Ex:21/22...)" name="uAge" id="Age" required /><br/><br/>
+	</fieldset>
+	
+	
+    <fieldset>
+    <legend><strong>Department Details</strong></legend><br>
+	
+	<label>Campus Name&emsp;&ensp;</label> 
+    <input type="text" placeholder="Enter Campus Name" name="uCampus" id="name" required><br/><br/>
+	
+	<label>Department Name</label> 
+    <input type="text" placeholder="Enter Department Name" name="uDepartment" id="name" required><br/><br/>
+	
+	<label>Year&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label> 
+    <input type="number" placeholder="Enter Year(Ex:1/2/3/4)" name="uYear" id="Year" required><br/><br/>
+	
+	
+	
+	</fieldset>
+    <input type="submit" id="button" value="Submit">
+	<input type="Reset" id="button" value="Reset">
+	
+	
+  </form>
+  <div class="bg-image"><br/><br/><br/></div>
+<hr>
+<footer>
+
+
+<div class="content">
+
+    
+    <h1><center>ACADEMIC HELP DESK</center></h1><br>
+    <table style="width:90% ;" > 
+        <tr > 
+            <th >
+    <h4 style="color:#AD03FC ;"> <u> Contact Us </u></h4>
+    <p> 542/4 Kaduwela Road</p>
+    <p>Malabe.</p>
+
+    <p>+118776546</p>
+    <p>sliit@my.sliit.lk</p>
+   </th>
+
+
+
+   <th>    
+    <h4 style="color:#AD03FC ;"> <u> Quick Links </u></h4>
+ <div class="links">
+ <p> <a href="feedbacks.html"> Feedbacks </a></p>
+ <p><a href="about us.html"> About us </a></p>
+
+ <p><a href="Register.html"> Register </a></p>
+ <p><a href="lecture_catalouge.html"> Lecturer Catalouge </a></p>
+ </div>
+</th>
+
+<th>    
+    <h4 style="color:#AD03FC ;"> <u> About Us </u> </h4>
+    
+    <p> We are here to  </p>
+    <p>help USERS</p>
+    <p>24/7 Available</p>
+    
+    <p>Thanks for joining</p>
+    <p> <i>Academic Help Desk</i></p>
+   </th>
+
+
+
+
+
+ </tr>
+
+
+
+ <br><br>
+
+
+
+</table> 
+<br><br><br>
+
+       
+
+    <ul class="pics">
+<center> 
+        <a>
+         <a href="https://www.facebook.com/"> <img width="30" height="30" src="..\images\1.png" alt="facebook">&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</a>
+        
+        
+           <a href="https://twitter.com/"> <img width="30" height="30" src="..\images\Twitter-Logo1.png" alt="twitter">&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; </a>
+        
+        
+           <a href="https://www.whatsapp.com/">  <img width="30" height="30" src="..\images\whatsapp31.jpg" alt="whatsapp">&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; </a>
+        
+        
+           <a href="https://www.youtube.com/"> <img width="30" height="30" src="..\images\youtube6.png" alt="youtube"></a>
+        </li>
+    
+    </center>
+    </ul>
+
+
+     
+</div>
+
+<div class="bottomOfFooter">
+<p>Copyright &copy;2022 ACADEMIC Help Desk. All rights reserved. Designed by <span>ACADEMIC HELP DESK TEAM</span> </p>
+
+</div>
+
+
+
+
+
+
+
+</footer>
+</body>
+
+</html>
